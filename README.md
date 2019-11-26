@@ -39,3 +39,33 @@
     <li>Dans le terminal toujours tapez : php artisan serve</li>
     <li>Le site doit normalement être disponible a l'url : http://localhost:8000</li>
 </ul>
+
+<h2>Travailler et partager son code avec github :</h2>
+<ul>
+    <li>Avant de creer une nouvelles branch : pensez a pull la branch "develop" (en bas a gauche)</li>
+    //img here
+    <li>Pour créer une nouvelle branch :
+        <ul>
+            <li>TOUJOURS a partir de la branche develop</li>
+            <li>Cliquez sur develop (en bas a gauche)</li>
+            //img here
+            <li>Cliquez sur "new branch" (en haut au milieu) puis rentrez le nom de votre nouvelle branch</li>
+            //img here
+            <li>Le nom de la branch sur laquelle vous êtes est écris en bas a gauche</li>
+        </ul>
+    </li>
+    <li>Une fois les modifications terminez :
+        <ul>
+            <li>Dans l'onglet "Source control"</li>
+            <li>Validez les changes en cliquant sur le +</li>
+            //img here
+            <li>Rentrez une breve descriptions des changements puis cliquez sur le signe validez</li>
+            <li>Allez dans l'onglet "GitHub Pull Request"</li>
+            <li>Cliquez sur le +</li>
+            <li>La branch proposez doit être "develop", validez</li>
+            <li>Rentrez le nom de la nouvelles branch, validez </li>
+            <li>La nouvelle pull request doit apparaitre dans l'onglet "pull request" sur github</li>
+            <li>Il faudra peut être validez la PR en cliquand sur "compare and pull" puis "create...", en s'assurant que la base est sur "develop"</li>
+        </ul>
+    </li>
+</ul>
