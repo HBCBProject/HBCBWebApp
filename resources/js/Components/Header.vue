@@ -7,7 +7,7 @@
       <router-link to="{name: 'home'}">Accueil</router-link>
       <router-link to="{name: 'home'}">Vie du club</router-link>
       <router-link to="{name: 'home'}">Equipes</router-link>
-      <router-link to="{name: 'home'}">Sponsors</router-link>
+      <router-link :to="{name: 'Sponsors'}">Sponsors</router-link>
       <router-link to="{name: 'home'}">Boutiques</router-link>
       <router-link to="{name: 'home'}">Galerie</router-link>
       <router-link to="{name: 'home'}">Infos pratiques</router-link>
@@ -23,7 +23,7 @@ export default {};
 </script>
 <style scoped>
 header {
-  background-color: #ffde6f;
+  background-color: rgb(252, 220, 116);
   height: 85px;
   width: 100%;
   position: fixed;
