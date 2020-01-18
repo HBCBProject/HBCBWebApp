@@ -4,15 +4,15 @@
         <img src="..\assets\pictures\Logo.jpg" alt="logo HBCB" />
     </router-link>
     <div class="container">
-      <router-link to="{name: 'home'}">Accueil</router-link>
-      <router-link to="{name: 'home'}">Vie du club</router-link>
-      <router-link to="{name: 'home'}">Equipes</router-link>
-      <router-link to="{name: 'home'}">Sponsors</router-link>
-      <router-link to="{name: 'home'}">Boutiques</router-link>
-      <router-link to="{name: 'home'}">Galerie</router-link>
-      <router-link to="{name: 'home'}">Infos pratiques</router-link>
-      <router-link to="{name: 'home'}">Contacts</router-link>
-      <router-link to="{name: 'home'}">Plan d'accés</router-link>
+      <router-link :to="{name: 'home'}">Accueil</router-link>
+      <router-link :to="{name: 'home'}">Vie du club</router-link>
+      <router-link :to="{name: 'home'}">Equipes</router-link>
+      <router-link :to="{name: 'home'}">Sponsors</router-link>
+      <router-link :to="{name: 'home'}">Boutiques</router-link>
+      <router-link :to="{name: 'home'}">Galerie</router-link>
+      <router-link :to="{name: 'home'}">Infos pratiques</router-link>
+      <router-link :to="{name: 'home'}">Contacts</router-link>
+      <router-link :to="{name: 'home'}">Plan d'accés</router-link>
     </div>
 
     <button class="connexionButton">Se connecter</button>
@@ -23,6 +23,7 @@ export default {};
 </script>
 <style scoped>
 header {
+  z-index: 10;
   background-color: #ffde6f;
   height: 85px;
   width: 100%;
