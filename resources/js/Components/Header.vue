@@ -8,7 +8,7 @@
       <router-link to="{name: 'home'}">Vie du club</router-link>
       <router-link to="{name: 'home'}">Equipes</router-link>
       <router-link to="{name: 'home'}">Sponsors</router-link>
-      <router-link to="{name: 'home'}">Boutiques</router-link>
+      <router-link :to="{name: 'Boutique'}">Boutiques</router-link>
       <router-link to="{name: 'home'}">Galerie</router-link>
       <router-link to="{name: 'home'}">Infos pratiques</router-link>
       <router-link to="{name: 'home'}">Contacts</router-link>

@@ -5,7 +5,8 @@ Vue.use(VueRouter);
  
 import App from "./App.vue";
 import Homepage from "./Components/Homepage"
- 
+import Boutique from "./Components/Boutique"
+
 const router = new VueRouter({
     mode: "history",
     routes: [
@@ -13,6 +14,11 @@ const router = new VueRouter({
             path: "/",
             name: "home",
             component: Homepage
+        },
+        {
+            path: "/Boutique",
+            name: "Boutique",
+            component: Boutique
         }
     ]
 });
