@@ -23,6 +23,7 @@ export default {};
 </script>
 <style scoped>
 header {
+  z-index: 10;
   background-color: #ffde6f;
   height: 85px;
   width: 100%;
