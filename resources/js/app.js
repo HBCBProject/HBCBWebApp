@@ -18,6 +18,11 @@ const router = new VueRouter({
         path: "/equipe",
         name: "equipe",
         component: equipe
+    },
+    {
+        path: "/Boutique",
+        name: "Boutique",
+        component: Boutique
     }]
 });
 

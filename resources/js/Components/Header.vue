@@ -8,7 +8,7 @@
       <router-link to="{name: 'home'}">Vie du club</router-link>
       <router-link :to="{name: 'equipe'}">Equipes</router-link>
       <router-link to="{name: 'home'}">Sponsors</router-link>
-      <router-link to="{name: 'home'}">Boutiques</router-link>
+      <router-link :to="{name: 'Boutique'}">Boutiques</router-link>
       <router-link to="{name: 'home'}">Galerie</router-link>
       <router-link to="{name: 'home'}">Infos pratiques</router-link>
       <router-link to="{name: 'home'}">Contacts</router-link>
@@ -23,6 +23,7 @@ export default {};
 </script>
 <style scoped>
 header {
+  z-index: 10;
   background-color: #ffde6f;
   height: 85px;
   width: 100%;
