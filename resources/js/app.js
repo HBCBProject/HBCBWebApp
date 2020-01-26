@@ -1,13 +1,18 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+
+
 import VueMaterial from 'vue-material';
 import 'vue-material/dist/vue-material.min.css';
 
 Vue.use(VueRouter);
+Vue.use(VueMaterial)
 
 import App from "./App.vue";
 import Homepage from "./Components/Homepage"
 import equipe from "./Components/equipe"
+import Boutique from "./Components/Boutique"
+
 const router = new VueRouter({
     mode: "history",
     routes: [{
