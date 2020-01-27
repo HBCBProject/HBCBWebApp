@@ -12,6 +12,7 @@ import App from "./App.vue";
 import Homepage from "./Components/Homepage"
 import equipe from "./Components/equipe"
 import Boutique from "./Components/Boutique"
+import vieclub from "./Components/vie_du_club"
 
 const router = new VueRouter({
     mode: "history",
@@ -23,6 +24,10 @@ const router = new VueRouter({
         path: "/equipe",
         name: "equipe",
         component: equipe
+    }, {
+        path: "/Vie_du_club",
+        name: "vieduclub",
+        component: vieclub
     },
     {
         path: "/Boutique",

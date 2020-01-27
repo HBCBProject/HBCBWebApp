@@ -5,7 +5,7 @@
     </router-link>
     <div class="container">
       <router-link to="{name: 'home'}">Accueil</router-link>
-      <router-link to="{name: 'home'}">Vie du club</router-link>
+      <router-link :to="{name: 'vieduclub'}">Vie du club</router-link>
       <router-link :to="{name: 'equipe'}">Equipes</router-link>
       <router-link to="{name: 'home'}">Sponsors</router-link>
       <router-link :to="{name: 'Boutique'}">Boutiques</router-link>
